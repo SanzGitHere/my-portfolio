@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shanjeyan's Portfolio</title>
+    <link rel="stylesheet" href="css/homepagestyles.css">
+    <script src="js/homepage.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+  <nav class="navbar">
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <label for="nav-toggle" class="nav-toggle-label">&#9776;</label>
+
+    <ul class="nav-links">
+      <li><a href="homepage.html">Home</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="projects.html">Projects</a></li>
+    </ul>
+
+    <!-- Dark/Light Toggle Button -->
+    <div class="theme-toggle">
+    <input type="checkbox" id="theme-switch">
+    <label for="theme-switch" class="toggle-label">
+    <div class="toggle-body">
+      <div class="toggle-circle"></div>
+      <div class="toggle-decor">
+      <div class="moon"></div>
+      <div class="star"></div>
+      <div class="star second"></div>
+    </div>
+    </div>
+    </label>
+    </div>
+
+  </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+  <div class="hero-content" data-delay="0s">
+    <div class="hero-inner">
+      
+    <!-- Left: Social Icons -->
+    <div class="hero-icons" data-delay="0.2s">
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/shanjeyan/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/_vi.jeyan_/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://github.com/SanzGitHere/" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.figma.com/@shanjeyanvinaya" target="_blank"><i class="fab fa-figma"></i></a>
+        <a href="https://www.behance.net/vinayagshanjey" target="_blank"><i class="fab fa-behance"></i></a>
+      </div>
+    </div>
+
+    <!-- Right: Text -->
+    <div class="hero-text animate-on-scroll" data-delay="0.4s">
+      <h1 class="hero-title">I'm V.Shanjeyan</h1>
+      <h1 class="hero-role">
+        <span class="typed-text"></span><span class="cursor">&nbsp;</span>
+      </h1>
+      <p class="paragraph">
+        I’m a passionate and self-driven software engineer undergraduate with hands-on experience in
+        web development and mobile app design and backend systems. I'm proficient in PHP, JavaScript,
+        HTML, CSS, MySQL, and Firebase with additional knowledge of Android development, UI/UX design,
+        and Python for machine learning.
+      </p>
+      <a href="files/Shanjeyan_Portfolio_Resume.pdf" target="_blank" class="download-btn">My Resume</a>
+      <a href="#" id="mailMe" class="download-btn">Mail Me</a>
+
+    </div>
+    </div>
+  </div>
+
+    <!-- Image -->
+    <div class="hero-image animate-on-scroll" data-delay="0.6s">
+    <img src="images/mypic.jpg" alt="Shanjeyan's Profile" draggable="false">
+    </div>
+  </section>
+
+
+  <!-- Services Section -->
+  <section class="services">
+  <h2 class="animate-on-scroll">What Services I'm Providing</h2>
+  <div class="card-container">
+    <div class="card animate-on-scroll">
+      <img src="images/web-development.png" class="card-img">
+      <h3>Web Development</h3>
+      <p>I build responsive, clean, and user-friendly websites using HTML, CSS, JavaScript, PHP, and MySQL. 
+        Whether it’s a personal blog or a business platform, I ensure performance, usability and mobile compatibility.</p>
+    </div>
+    <div class="card animate-on-scroll">
+      <img src="images/UI-UX-Design-icon-300x300.png" class="card-img">
+      <h3>UI/UX Design</h3>
+      <p>I design engaging user interfaces and experiences using tools like Figma. 
+        My design process emphasizes layout, flow, and usability, ensuring your website
+        or app is intuitive, visually appealing, and user-centered.</p>
+    </div>
+    <div class="card animate-on-scroll">
+      <img src="images/QA.png" class="card-img">
+      <h3>Quality Assurance (QA)</h3>
+      <p>I ensure software works as intended and delivers a smooth user experience by testing and
+        validating functionality, design, and performance. 
+        My goal is to ensure software is reliable, user-friendly, and of high quality.</p>
+    </div>
+  </div>
+  </section>
+
+  <footer class="footer">
+  Copyright &copy; 2025. Shanjeyan Portfolio.
+  </footer>
+
+</body>
+</html>
