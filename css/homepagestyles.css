@@ -110,6 +110,7 @@ body {
     }
 }
 
+
 /* Hero Section */
 .hero {
     display: flex;
@@ -347,6 +348,10 @@ body {
         margin-left: 0;
     }
 
+    .download-btn{
+        margin-top: 1.5rem;
+    }
+
     .social-icons {
         flex-direction: row;
         justify-content: center;
@@ -359,7 +364,7 @@ body {
     }
 
     .hero-role {
-        font-size: 2.5rem;
+        font-size: 2.3rem;
     }
 
     .hero-image img {
@@ -415,6 +420,8 @@ body.dark-mode {
     right: 2.5rem;
   }
 }
+
+
 
 /* Custom Theme Toggle */
 #theme-switch {
