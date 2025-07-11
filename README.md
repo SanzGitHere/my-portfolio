@@ -21,7 +21,3 @@ This site showcases my skills, projects, and what services I do with a smooth us
 ## 🚀 Live Demo
 
 👉 [View Website](https://SanzGitHere.github.io/my-portfolio/)
-
-## 📸 Preview
-
-![Portfolio Screenshot](preview.png)
